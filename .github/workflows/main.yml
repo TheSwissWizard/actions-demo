@@ -2,7 +2,7 @@ name: main
 on: [push, workflow_dispatch]
 jobs:
   build:
-    uses: TheSwissWizard/workflow-demo/.github/workflows/main.yml@master
+    uses: TheSwissWizard/workflow-demo/.github/workflows/main.yml@main
     with:
       name: actions-demo
       java: 17
