@@ -6,3 +6,5 @@ jobs:
     with:
       name: actions-demo
       java: 17
+      DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
+      DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
